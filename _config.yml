@@ -135,6 +135,7 @@ events:
   - image: "/img/timeline/grad.jpg"
     date: "April 2014"
     description: "<small>Graduated! Ready to set the world on :fire:</small>"
+  
   - image: "/img/timeline/cog.png"
     date: "September 2014"
     description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :heart_eyes:</small>"
@@ -145,12 +146,13 @@ events:
   - image: "/img/timeline/bye1.jpg"
     date: "December 2014"
     #description: "<small>Farewell! I will miss you Cognizant :cry:</small>"
+  
   - image: "/img/timeline/gl.png"
     date: "Feb 2015"
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
-    date: "Devops Engineer"
-    description: "<small>From Ground to High-Up in AWS to Azure :cloud:, and back. The term 'DevOps' Sounds like music to my Ear's!</small>"
+    date: "Technical Specialist"
+    description: "<small>Helping with technical consultation on specifications of Technologies. </small>"
 
 
 # First image of the Timeline
