@@ -238,4 +238,4 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
