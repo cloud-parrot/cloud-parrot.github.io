@@ -203,7 +203,7 @@ social:
   - title: "linkedin"
     url: "https://linkedin.com/in/harshalrasal"
   - title: "rss"
-    url: "/feed.xml"
+    #url: "/feed.xml"
 
 
 #############
