@@ -1,7 +1,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://akhan4u.github.io"
+url: "https://cloud-parrot.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "Amaan Khan"
-title: "Amaan Khan"
+author: "Harshal Rasal"
+title: "Harshal Rasal"
 description: "An Enthusiastic Linux Geek, Who loves working on OpenSource Technologies and A foodie by heart!"
-keywords: "amaan, personal"
+keywords: "harshal, personal"
 favicon: "/img/favicon.ico"
 
 ################
@@ -123,7 +123,7 @@ pinterest-share: false
 pocket-share: false
 vkontakte-share: false
 
-disqus-shortname: "https-akhan4u-github-io"
+disqus-shortname: "https-cloud-parrot-github-io"
 
 syntax-highlight: True
 
@@ -170,7 +170,7 @@ timeline-img: "/img/timeline/default.png"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Amaan Khan is an awesome person. He lives in Nagpur and works on multi dimensional projects. He usually spends his weekend in learning new stuffs, Reading, Cycling and Listening Music."
+author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY and works on multi dimensional projects. He usually spends his weekend in learning new stuffs, Reading, Cycling and Listening Music."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -179,13 +179,13 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/KHAN_AMAAN4U"
+    url: "https://facebook.com/harshalrasal007"
   - title: "twitter"
-    url: "https://twitter.com/Amaankhan4you"
+    url: "https://twitter.com/datacules"
   - title: "github"
-    url: "https://github.com/akhan4u"
+    url: "https://github.com/cloud-parrot"
   - title: "linkedin"
-    url: "https://linkedin.com/in/amaan-khan-linux-ninja"
+    url: "https://linkedin.com/in/harshalrasal"
   - title: "rss"
     url: "/feed.xml"
 
