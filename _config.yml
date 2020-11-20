@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "<i>Dedicated to Embrace Linux</i>"
+  - text: "<i>Dedicated to Embrace Cloud & Linux</i>"
   - text: "<i>Strong affinity for OpenSource Softwares</i>"
   - text: "<i>Foodie by heart and Loves to travel</i>"
 
@@ -199,7 +199,7 @@ social:
   - title: "twitter"
     url: "https://twitter.com/datacules"
   - title: "github"
-    url: "https://github.com/cloud-parrot"
+    url: "https://github.com/hvrcharon1"
   - title: "linkedin"
     url: "https://linkedin.com/in/harshalrasal"
   - title: "rss"
