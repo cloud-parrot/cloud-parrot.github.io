@@ -190,7 +190,7 @@ timeline-img: "/img/timeline/default.png"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY and pursuing his Masters along with learning about US culture and life here. He usually spends his weekend in learning new stuffs, Reading, Cycling and Listening Music."
+author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY, US and pursuing his Masters. He usually spends his weekend in learning new stuffs, Reading, Cycling and Listening Music."
 author_blurb_image: "/img/author.png"
 
 ##################
