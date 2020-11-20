@@ -1,0 +1,25 @@
+
+<!-- Swipe Instructions Start -->
+
+<div id="swipe-instruction">
+  <div>
+    <p><br><br><br></p>
+    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
+    <p><strong>
+    {% if page.section-type == "blog" %}
+    <font color="white"> Did you know that you can navigate the archive pages by swiping left and right? </font>
+    {% elsif page.section-type == "post" %}
+    <font color="white">  Did you know that you can navigate the posts by swiping left and right? </font>
+    {% endif %}
+    </strong></p>
+    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
+      {% if page.section-type == "blog" %}
+      <b>  Got it! </b>
+      {% elsif page.section-type == "post" %}
+      <b>  Awesome! </b>
+      {% endif %}
+    </button>
+  </div>
+</div>
+
+<!-- Swipe Instructions End -->
