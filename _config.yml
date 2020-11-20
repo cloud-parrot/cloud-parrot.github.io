@@ -10,7 +10,7 @@ url: "https://cloud-parrot.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: 
+baseurl: "/cloud-parrot.github.io" 
 
 # Google tracking id
 
