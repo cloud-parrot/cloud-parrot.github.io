@@ -145,7 +145,7 @@ events:
        documentation for future references. </small>"
   - image: "/img/timeline/bye1.jpg"
     date: "December 2014"
-    #description: "<small>Farewell! I will miss you Cognizant :cry:</small>"
+    description: "<small>Adios! </small>"
   
   - image: "/img/timeline/gl.png"
     date: "Feb 2015"
@@ -220,7 +220,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: godfatherisone
+keybase-username: harshalrasal
 keybase-in-social: false
 keybase-in-footer: True
 
