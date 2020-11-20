@@ -154,6 +154,19 @@ events:
     date: "Technical Specialist"
     description: "<small>Helping with technical consultation on specifications of Technologies. </small>"
 
+  - image: "/img/timeline/ghi.png"
+    date: "Aug 2019 - Dec 2019"
+    description: "<small>Started as SD Tead Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
+  - image: "/img/timeline/ghi2.png"
+    date: "Internship"
+    description: "<small>Work on improving the performance of GHI website by using proper code structure and updating the code base to newer python version. </small>"
+    
+  - image: "/img/timeline/agzeit.png"
+    date: "May 2020 - July 2020 - Volunteer Work"
+    description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
+  - image: "/img/timeline/agzeit1.png"
+    date: "Internship"
+    description: "<small>Setting up AWS virtual platform services to build a eCommerce Website.  </small>"  
 
 # First image of the Timeline
 
