@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Adding a life event in the Timeline on your jkeyl theme website
+title: Adding a life event in the Timeline 
 category: tech
 tags: [ 'tutorial' ]
 ---
