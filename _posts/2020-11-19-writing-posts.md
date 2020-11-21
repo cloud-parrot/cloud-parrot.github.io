@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Writing posts
+title: Writing posts for your blog or articles
 category: tech
 tags: [ 'tutorial' ]
 ---
