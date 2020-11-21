@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Modifying the social buttons
+title: Modifying the social media buttons on your jkeyll theme website
 category: tech
 tags: [ 'tutorial' ]
 ---
