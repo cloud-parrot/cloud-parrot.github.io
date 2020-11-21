@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Setting up the Blog
+title: Setting up the Blog in your website
 category: tech
 tags: [ 'tutorial' ]
 ---
