@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Modifying the Header
+title: Modifying the Header in your jkeyll configuration
 category: tech
 tags: [ 'tutorial' ]
 ---
