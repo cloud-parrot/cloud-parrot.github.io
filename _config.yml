@@ -15,9 +15,9 @@ baseurl: "/cloud-parrot.github.io"
 
 # Google tracking id
 
-google-tracking-id: "UA-124046744-1"
+google-tracking-id: " "
 
-google_cse_id: "014694664375022079144:hoivop--bv4"
+google_cse_id: " "
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -191,7 +191,7 @@ timeline-img: "/img/timeline/default.png"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY, US and pursuing his Masters. He usually spends his weekend in learning new stuffs, Reading, Cycling and Listening Music."
+author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY, US and pursuing his Masters. He usually spends his weekend in learning new stuffs, Reading, Cycling/running and Listening Music."
 author_blurb_image: "/img/author.png"
 
 ##################
