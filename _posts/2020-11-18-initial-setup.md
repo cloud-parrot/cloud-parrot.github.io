@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
+title: Steps Initial setup to host your website!
 category: tech
 tags: [ 'tutorial' ]
 ---
