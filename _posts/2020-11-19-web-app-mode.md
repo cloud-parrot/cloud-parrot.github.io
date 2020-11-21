@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Web app mode
+title: Configuring jkeyll theme for the Web app mode
 category: tech
 tags: [ 'tutorial']
 ---
