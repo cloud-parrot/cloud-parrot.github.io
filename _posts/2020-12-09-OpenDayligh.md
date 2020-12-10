@@ -6,7 +6,7 @@ category: tech
 tags: [ 'tutorial' ]
 ---
 
-### Know OpenDaylight
+## Know OpenDaylight
 
 As written on the OpenDaylight website, OpenDaylight is the largest Open Source Controller. OpenDaylight (ODL) is a modular open platform for customizing 
 and automating networks of any size and scale. The OpenDaylight project arose out of the SDN movement, with clear 
@@ -27,13 +27,10 @@ Following are the necessary steps to Install OpenDaylight on Ubuntu LTS 18.04
 
 <pre><code data-trim class="yaml">
 # Prepare your OS
-
 $ sudo apt-get update
 
 # Now install the required packages
-
 $ sudo apt-get -y install unzip vim wget
-
 </code></pre>
 
 ## Install JAVA JRE
@@ -42,7 +39,6 @@ Installation of OpenDaylight requires JAVA 8 Run Time environment
 
 <pre><code data-trim class="yaml">
 # Run the following command to install the JRE
-
 $ sudo apt-get -y install openjdk-8-jre
 </code></pre>
 
@@ -50,7 +46,6 @@ Ensure that your OS points to JAVA 8. If not make sure to select version 8 from 
 
 <pre><code data-trim class="yaml">
 # Run the following command to make sure
-
 $ sudo update-alternatives --config java 
 There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 Nothing to configure.
@@ -61,6 +56,7 @@ Copy the information as you are going to need it in next step.
 "In my case JAVA 8 binary resides in # /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java"
 
 Now you know the path, run the following command to update your BASHRC file
+
 <pre><code data-trim class="yaml">
 $ echo 'export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre' >> ~/.bashrc 
 </code></pre>
@@ -69,22 +65,19 @@ $ echo 'export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre' >> ~/.bashrc
 
 <pre><code data-trim class="yaml">
 $ source ~/.bashrc 
-
 # Make sure $JAVA_HOME ends with /jre
 $ echo $JAVA_HOME
 /usr/lib/jvm/java-8-openjdk-amd64/jre
-
 </code></pre>
 
 ## Download the OpenDaylight ZIP or TAR Archive
 
 Use the following link to exxplore the files you'd like to download
 
-Download the *karaf-0.13.1.zip*  or *karaf-0.13.1.tar.gz* from this [Duck Duck Go] (https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.13.1/ "LINK")
+Download the *karaf-0.13.1.zip*  or *karaf-0.13.1.tar.gz* from [here] (https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.13.1/).
 
 <pre><code data-trim class="yaml">
 # The command you need to execute to download
-
 $ wget https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.13.1/karaf-0.13.1.zip 
 </code></pre>
 
@@ -92,26 +85,21 @@ $ wget https://nexus.opendaylight.org/content/repositories/opendaylight.release/
 
 <pre><code data-trim class="yaml">
 # Install the OpenDaylight into your OS
-
 # make a directory install the files
-$ sudo mkdir /usr/local/karaf
-
-# moce the zip or tar archive to install workspace. 
+$ sudo mkdir /usr/local/karaf 
 # make sure to use the correct version. I downloade kraf-0.13.1 and yours may be different
-
 $ sudo mv karaf-0.13.1.zip /usr/local/karaf
 $ sudo unzip /usr/local/karaf/karaf-0.13.1.zip -d /usr/local/karaf/
 </code></pre>
 
 Now install **karaf** into user space
+
 <pre><code data-trim class="yaml">
 $ sudo update-alternatives --install /usr/bin/karaf karaf /usr/local/karaf/karaf-0.13.1/bin/karaf 1
 update-alternatives: using /usr/local/karaf/karaf-0.13.1/bin/karaf to provide /usr/bin/karaf (karaf) in auto mode
-
 $ sudo update-alternatives --config karaf
 There is only one alternative in link group karaf (providing /usr/bin/karaf): /usr/local/karaf/karaf-0.13.1/bin/karaf
 Nothing to configure.
-
 $ which karaf
 /usr/bin/karaf
 </code></pre>
@@ -168,19 +156,19 @@ $
 ## Installing the ODL STOP Script
 
 ODL service requires a **stop** script in order to shutdown **karaf**
+
 <pre><code data-trim class="yaml">
 $ sudo update-alternatives --install /usr/bin/stop stop /usr/local/karaf/karaf-0.13.1/bin/stop 1
 update-alternatives: using /usr/local/karaf/karaf-0.13.1/bin/stop to provide /usr/bin/stop (stop) in auto mode
-
 $ sudo update-alternatives --config stop
 There is only one alternative in link group stop (providing /usr/bin/stop): /usr/local/karaf/karaf-0.13.1/bin/stop
 Nothing to configure.
-
 $ which stop
 /usr/bin/stop
 </code></pre>
 
 ## Creating **systemd** service configuration file
+
 <pre><code data-trim class="yaml">
 $ sudo vim /etc/systemd/system/opendaylight.service
 </code></pre>
