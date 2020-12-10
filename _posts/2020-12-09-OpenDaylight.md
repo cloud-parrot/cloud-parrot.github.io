@@ -74,7 +74,7 @@ $ echo $JAVA_HOME
 
 Use the following link to exxplore the files you'd like to download
 
-Download the *karaf-0.13.1.zip*  or *karaf-0.13.1.tar.gz* from [here] (https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.13.1).
+Download the *karaf-0.13.1.zip*  or *karaf-0.13.1.tar.gz* from [here](https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.13.1).
 
 <pre><code data-trim class="yaml">
 # The command you need to execute to download
