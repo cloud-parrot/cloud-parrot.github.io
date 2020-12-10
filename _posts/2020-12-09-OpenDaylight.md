@@ -23,7 +23,7 @@ Following are the necessary steps to Install OpenDaylight on Ubuntu LTS 18.04
 5. Create configuration file - #systemd
 6. Install and enable OpenDaylight Service - #systemd
 
-## Prepare OS 
+## Get your OS ready 
 
 <pre><code data-trim class="yaml">
 # Prepare your OS
