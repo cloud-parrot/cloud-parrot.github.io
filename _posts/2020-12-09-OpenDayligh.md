@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Installing OpenDaylight as a service on Ubuntu 18.04 LTS
+title: Install OpenDaylight as a service on Ubuntu 18.04LTS
 category: tech
 tags: [ 'tutorial' ]
 ---
