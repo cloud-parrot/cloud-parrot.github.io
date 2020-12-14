@@ -17,11 +17,11 @@ Uniqueness of git falls unders its distributed approach, it permits users to hav
 
 Basically GitLab is a repository mangement platform with lots of tools which allows IT teams to collaborate on code. Gitlab is mainly written in Ruby and Go. GitLab is designed with the purpose of serving with a Web IDE. The cool part is, the GitLab’s Web IDE is integrated with built-in CI/CD framework which offers Auto DevOps which automatically runs CI/CD merge requests without a user being involved setting it up which has ultimately speed up your GitLab workflow. From the release of 10.0 version Gitlab has announced an integraton between development and DevOps toolchains which has united the development and operations in on user experice. Since Gitlab offers its built in CI then users dont need to us any external CI service and in case if a user is already using an external CI tool then still Gitlab allows to integrate with tools like Jenkins, Codeship, etc. GitLab is a very useful platform for issue tracking and project management for the DevOps operations because it provides a dashboard that lets you understand the dependencies of your development and DevOps efforts. Additional feature with GitLab is, it basically allows user to provide access to the issue tracker (without giving permission to the source code) and this is a great feature for teams with lot of contributors as well as role-based contributors with enterprises. GitLab also offers detailed documentation on how to import your data from other vendors – such as GitHub, Bitbucket – to GitLab. So in my opinion GitLab is the most feature-rich git platform currently available in market.
 
-# Some of the DevOps features I am aware of:
+**Some of the DevOps features I am aware of:**
 
-+ Testing and deploying of your application on Kubernetes environment can be done with Gitlab. 
-+ Gitlab offers WAF(The Web Application Firewall) to managed Kubernetes clusters to detect and block web based attacks using the OWASP core ruleset.
-+ GitLab offers monitoring and logging of running pods in connected Kubernetes clusters.
+1. Testing and deploying of your application on Kubernetes environment can be done with Gitlab. 
+2. Gitlab offers WAF(The Web Application Firewall) to managed Kubernetes clusters to detect and block web based attacks using the OWASP core ruleset.
+3. GitLab offers monitoring and logging of running pods in connected Kubernetes clusters.
 
 ## Github - What I think and How do I use it!
 
