@@ -27,7 +27,7 @@ Basically GitLab is a repository mangement platform with lots of tools which all
 
 GitHub is also a Git-based repository hosting platform and it's the largest source code globally. GitHub repositories can be made public and every publicly shared code in the repository is freely open to everyone, this publicly shared repositories are often used to share open source software. With Github you can create private repositories as well, as per Github's recent official announcement If you're using GitHub Free, you can add unlimited collaborators on public and private repositories. However, besides the code repository, GitHub can also be used for issue tracking, documentation, and wikis. Similar to Gitlab, in GitHub as well user can decide if someone gets a read or write access to a repository. Github doesn’t provide detailed documentation on on how to import/export your data from other vendors – such as  Bitbucket – to Github, which might be considered as a disadvantage for smaller dev teams when it comes to your Github workflow. However, GitHub offers to use GitHub Importer if you have your source code in Subversion, Mercurial, TFS and others. Github has also launched it's build-in CI/CD framework that means users don't need to integrate a 3rd party CI/CD tool to Github in order to automate testing and speeding up the development process. However users can still use the 3rd party tools like Jenkins or CircleCI. I still do use Github just for browsing through the big ocean of OpenSource Projects and I kinda got used to with its userinterface.
 
-# If we picturize these two platform this is how it looks like to me!!!
+**If we picturize these two platform this is how it looks like to me!!!**
 
 ![GLB!](/img/glb.png "GLB")
 
