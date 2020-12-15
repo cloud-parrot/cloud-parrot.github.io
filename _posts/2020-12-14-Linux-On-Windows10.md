@@ -16,13 +16,29 @@ Especially If you are in IT, it doesn't matter either you in heldesk, Network En
 <p style='text-align: left;'> 1. Cloud Platforms - AWS, GCP, Azure, Linode (Most of these cloud platforms provides free accounts where you can deploy Ubuntu Server) </p>
 <p style='text-align: left;'> 2. Installing WSL (Windows Subsystem for Linux) which allows to install Linux on any version of Windows 10. </p>
 
-In this blog I'll be showing you the steps in second option.
+Please Note: Bash on Ubuntu on Windows 10 does not work on the 32 bit version of Windows 10, because it requires Hyper-V
+
+In this blog I'll be showing you the steps required in second option.
 
 **Step 1:** Enable the Windows Subsystem for Linux using the following command
 
 Open the PowerShell as Admin and Run the command
 
 ![PS!](/img/winl_1.png)
+
+After running the command If you haven't Enabled the developer mode in Windows 10 then you will face the error.
+
+To Enable the Developer mode in Windows 10 follow the below steps.
+
+  Go to Start> Settings > Update & Security > For Developer
+
+![PS6!](/img/winl_6.png)
+
+  Then Go to the Run and Type: optionalfeatures.exe hit ↩
+
+  Scroll down to check off **Windows Subsystem ofr Linux** then press OK
+
+![PS7!](/img/winl_7.png)
 
 Now you can Restart your machine and move on to the next step.
 
