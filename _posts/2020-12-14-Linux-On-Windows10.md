@@ -21,7 +21,7 @@ In this blog I'll be showing you the steps in second option.
 
 Open the PowerShell as Admin and Run the command
 
-![PS](img/winl_1.png)
+![PS!](/img/winl_1.png)
 
 Now you can Restart your machine and move on to the next step.
 
@@ -29,25 +29,25 @@ Now you can Restart your machine and move on to the next step.
 
 You will see the options for Linux flavors
 
-![PS1](img/winl_2.png)
+![PS1!](/img/winl_2.png)
 
 Select the Linux Flavor you want to Install
 
-![PS2](img/winl_3.png)
+![PS2!](/img/winl_3.png)
 
 After the download finish you can just Launch it.
 
-![PS2](img/winl_4.png)
+![PS2!](/img/winl_4.png)
 
 **Step 3:** Final Step
 
 Setup the Username and Password for your Ubuntu Machine
 
-![PS3](img/winl_5.png)
+![PS3!](/img/winl_5.png)
 
 Bingo! You're inside of the Linux
 
-![PS4](img/winu.png)
+![PS4!](/img/winu.png)
 
 
 # Conclusion
