@@ -30,13 +30,13 @@ After running the command If you haven't Enabled the developer mode in Windows 1
 
 To Enable the Developer mode in Windows 10 follow the below steps.
 
-  Go to Start> Settings > Update & Security > For Developer
+ 1. Go to Start> Settings > Update & Security > For Developer
 
 ![PS6!](/img/winl_6.png)
 
-  Then Go to the Run and Type: optionalfeatures.exe hit ↩
+ 2. Then Go to the Run and Type: **optionalfeatures.exe** hit **↩**
 
-  Scroll down to check off **Windows Subsystem ofr Linux** then press OK
+ 3. Scroll down to check off **Windows Subsystem ofr Linux** then press OK
 
 ![PS7!](/img/winl_7.png)
 
