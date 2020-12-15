@@ -16,12 +16,12 @@ OpenDaylight allows cloud engineers to programmatically deploy, configure and co
 
 Following are the necessary steps to Install OpenDaylight on Ubuntu LTS 18.04
 
-1. Ubuntu LTS 18.04 OS
-2. Install JAVA JRE
-3. Download OpenDaylight
-4. Install OpenDaylight
-5. Create configuration file - #systemd
-6. Install and enable OpenDaylight Service - #systemd
+<p style='text-align: left;'> 1. Ubuntu LTS 18.04 OS </p>
+<p style='text-align: left;'> 2. Install JAVA JRE </p>
+<p style='text-align: left;'> 3. Download OpenDaylight </p>
+<p style='text-align: left;'> 4. Install OpenDaylight </p>
+<p style='text-align: left;'> 5. Create configuration file - #systemd </p>
+<p style='text-align: left;'> 6. Install and enable OpenDaylight Service - #systemd </p>
 
 ## Get your OS ready 
 
