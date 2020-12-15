@@ -35,7 +35,7 @@ Select the Linux Flavor you want to Install
 
 ![PS2!](/img/winl_3.png)
 
-After the download finish you can just Launch it.
+After finishing the download you can just Launch it.
 
 ![PS2!](/img/winl_4.png)
 
