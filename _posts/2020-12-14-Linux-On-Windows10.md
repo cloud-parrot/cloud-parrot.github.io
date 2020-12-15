@@ -87,6 +87,4 @@ You've learned and successfully installed and set up a Linux distribution that i
 
 </code></pre>
 
-
-
 ---
