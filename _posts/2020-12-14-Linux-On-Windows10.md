@@ -71,8 +71,14 @@ Bingo! You're inside of the Linux
 
 You've learned and successfully installed and set up a Linux distribution that is completely integrated with your Windows operating system!
 
-# If you want to learn more about linux then following are the useful websites for self-learners: 
-
+**If you want to learn more about linux then following are the useful websites for self-learners** 
+<style>
+pre {
+  white-space: pre !important;
+  overflow-y: scroll !important;
+  height: 50vh !important;
+}
+</style>
 <pre><code data-trim class="yaml">
 
 1. Useful for self learning (https://linuxjourney.com/)
