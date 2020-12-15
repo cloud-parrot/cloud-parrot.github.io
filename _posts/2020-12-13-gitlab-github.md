@@ -19,9 +19,9 @@ Basically GitLab is a repository mangement platform with lots of tools which all
 
 **Some of the DevOps features I am aware of:**
 
-1. Testing and deploying of your application on Kubernetes environment can be done with Gitlab. 
-2. Gitlab offers WAF(The Web Application Firewall) to managed Kubernetes clusters to detect and block web based attacks using the OWASP core ruleset.
-3. GitLab offers monitoring and logging of running pods in connected Kubernetes clusters.
+<p style='text-align: left;'> 1. Testing and deploying of your application on Kubernetes environment can be done with Gitlab. </p> 
+<p style='text-align: left;'> 2. Gitlab offers WAF(The Web Application Firewall) to managed Kubernetes clusters to detect and block web based attacks using the OWASP core ruleset. </p>
+<p style='text-align: left;'> 3. GitLab offers monitoring and logging of running pods in connected Kubernetes clusters. </p>
 
 ## Github - What I think and How do I use it!
 
