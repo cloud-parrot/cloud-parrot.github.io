@@ -8,7 +8,7 @@ tags: [ 'tutorial']
 
 # Everyone needs to learn Linux
 
-Especially If you are in IT, it doesn't matter either you in heldesk, Network Engineer, System Engineer, Programmer or a Hacker, it has become essential to know the Linux!
+Especially If you are in IT, it doesn't matter either you in heldesk, Network Engineering, System Engineering, Programming or a Hacking, it has become essential to know the Linux!
 #RequiredSkill Linux is everywhere! YouTube, Netlflix, Tesla runs on Linux and according to the research Top 1M websites in the world (96% of them) runs on Linux. #BigDeal 
 
 **Few Options I'm aware of from where you can learn the Linux**
