@@ -6,7 +6,7 @@ category: tech
 tags: [ 'tutorial']
 ---
 
-# Docker and Docker Containers
+## Docker and Docker Containers
 
 Current trends in IT indicates that software containers are the future of IT, hence According to trends this is the high time for anyone who is in IT and wanted to learn about Docker and Docker Containers. If you are planning to learn and work in DevOps, Networking, Systems and Cloud platforms like Azure, AWS, GCP and Linode then the understanding of Docker and Docker containers will comes in very handy for you.  
 
@@ -23,13 +23,13 @@ Before we can define what's docker and docker containers, We should know about w
 
 According to the current trends in IT, The Docker and Docker conatiners are decreasing the use of VM's. Traditionally, before VM, users used to install the OS on a piece of HW, i.e. Physical Server, and all of the resources of this physical server (CPU, RAM, Hard Drive etc) would be dedicated to the one OS, i.e. One Server OS. There is no issue with that at all, Unless you want another server to install for another OS, So before VM's consider if you want to learn or make use of Windows Server and Linux Server so you had to have separate physical server (HW machines), To tackle this problem Virtualization comes into the picture, So now instead of installing one OS you will only need to install something called "Hypervisor". Now Hypervisor is kind of an OS but has only one goal that is, helping to distribute your server resources into multiple servers. Now there are tons of Hypervisors available in the market but the most popular one is VMWare, which I personally prefer using on my server (VMware ESXi), because it simply distributes a portion of your server's resources untill server runs out of its resources. But when we use docker containers again it takes us back to before virtualization so similarly when the user installs one OS on the entire server and that one OS gets access to everything our Physical server has to offer. Now here comes the docker into the picture!
 
-# What's docker doing?
+## What's docker doing?
 
 So as we discussed above, Virtualization in virtual machines are basically virtualizing HW, and in case of Docker, it basically virtualizes the OS!
 
 It means that we will always have our hardware but instead of hypervisor we are going to have one OS installed on top of the Hardware or on to the HW. For example, we have installed Ubuntu and now docker comes into the picture and makes things happen. Now docker installs like any other application you install on linux, so basically it will be a process running or deamon running and then using docker we will virtualize portions of our OS to create containers. This docker containers are doing the same thing as virtual machine installed on Hypervisors (VMware ), they have similar functions and have one of the same qualities which is why its kind of cool how they can replace virtual machines. And these containers similar to VM's can be running a different OS for example, CentOS, Ubuntu etc.
 
-# What are Docker Containers?
+## What are Docker Containers?
 
 I like to think them as a crazy fast lightweight microcomputers! In this context please don't let word 'micro' fool you because they are and they can be as powerful as you want them to be and similar to a VM they would have their own OS, their own CPU processes, their own memory, their own network and the most important thing is they are quaratined, they are isolated and they are secure.
 
@@ -86,7 +86,8 @@ I like to think them as a crazy fast lightweight microcomputers! In this context
 ![PS!](/img/linode23_docker_stats.png)
 
 
-# How docker being used in IT?
+
+## How docker being used in IT?
 
 We have already demonstrated that we can put docker container up in the cloud - Linode. You can move the same docker container to Azure, AWS they provide the similar environment as linode for the docker. Its just like a web application which you can deploy and launch your containers! This is amazing for developers because using docker container now they can write their code and deploy it in a docker container and make sure that it will works everywhere. Before this it was a problem with developers for a long time that they write code for an app on their computer and it works fine on thier end but as soon as when the same code goes to the QA team it don't work and developers had to get into discussion they don't want "Hey it worked on my machine, idk what's you are doing 😕". So basically docker coantainer helps avoid this becuase if you deploy your app in a docker container so everything that app needs is right there in that container, and its contained and isolated from other teams. 
 
