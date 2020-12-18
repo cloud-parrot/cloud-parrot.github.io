@@ -34,8 +34,13 @@ It means that we will always have our hardware but instead of hypervisor we are 
 
 I like to think them as a crazy fast lightweight microcomputers, and In this context please don't let word 'micro' fool you because they are and they can be as powerful as you want them to be and similar to a VM they would have their own OS, their own CPU processes, their own memory, their own network and the most important thing is they are quaratined, they are isolated and they are secure.
 
+**Follow the screenshot tutorial of Linode and play with Docker and Docker Containers**
+
+*If you don't have an account on Linode then you gonna need one. (Its free account gives you $100 credit)*
 
 ![PS!](/img/linode1.png)
+
+*Go to the Marketplace and scrll down to Docker*
 
 ![PS!](/img/linode2.png)
 
@@ -46,6 +51,8 @@ I like to think them as a crazy fast lightweight microcomputers, and In this con
 ![PS!](/img/linode5.png)
 
 ![PS!](/img/linode6.png)
+
+*Click on Launch SSH Console*
 
 ![PS!](/img/linode7.png)
 
@@ -69,6 +76,16 @@ I like to think them as a crazy fast lightweight microcomputers, and In this con
 
 ![PS!](/img/linode17.png)
 
+![PS!](/img/linode19_dh.png)
+
+![PS!](/img/linode20_dh.png)
+
+![PS!](/img/linode21_dh.png)
+
+![PS!](/img/linode22_dh.png)
+
+![PS!](/img/linode23_docker_stats.png)
+
 
 # How docker being used in IT?
 
@@ -77,11 +94,14 @@ We have already demonstrated that we can put docker container up in the cloud - 
 Comming to the microservices Its a concept which is taking IT industry by storm! As you more dive into the DevOps stuff this the concept you have to understand and work with. Microservices involved taking portions of your application or your stack and segment again into smaller bits and pieces, So traditionally you have one server where your entire application is installed with all required resources. For example, For Wordpress application, you might install your Wordpress Server and MySql database on the same server.This is what developers might have done traditionally by installing as many as compatible apps they could on one server. But now with the help of containers one particular application program, eg. Wordpress server may be installed in one container and have MySql portion installed in another container so that they both treated as a separate program and this isolated feature of containers reduces the chances for conflicting things and when a developer wants to update one portion of application then he/she only needs to update just one container without disrupting the whole cycle.
 
 
-
-
+**Important Links**
 
 <pre><code data-trim class="yaml">
+#useful link for docker images
+https://hub.docker.com/
 
+#know more about docker on
+https://www.docker.com/
 </code></pre>
 
 ---
