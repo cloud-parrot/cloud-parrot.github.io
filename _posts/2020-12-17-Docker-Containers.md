@@ -2,7 +2,7 @@
 ---
 layout: post
 section-type: post
-title: A deep dive into Docker & Docker Containers!
+title: A deep dive into Docker & Docker Containers
 category: tech
 tags: [ 'tutorial']
 ---
