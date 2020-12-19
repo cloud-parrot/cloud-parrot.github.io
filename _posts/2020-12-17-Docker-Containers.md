@@ -8,12 +8,12 @@ tags: [ 'tutorial']
 
 ### Docker and Docker Containers
 
-Current trends in IT indicates that software containers are the future of IT, hence According to trends this is the high time for anyone who is in IT and wanted to learn about Docker and Docker Containers. If you are planning to learn and work in DevOps, Networking, Systems and Cloud platforms like Azure, AWS, GCP and Linode then the understanding of Docker and Docker containers will comes in very handy for you.  
+Current trends in IT indicates that software containers are the future of IT, hence According to the current trends in IT this is the high time for anyone who is in IT and wanted to learn about Docker and Docker Containers. If you are planning to learn and work in DevOps, Networking, Systems and Cloud platforms like Azure, AWS, GCP and Linode then the understanding of Docker and Docker containers will comes in very handy for you.  
 
 
 **In this blog I'll be covering three things?**
 
-<p style='text-align: left;'> 1. What's docker and docker containers are replacing in terms of Virtualization? </p>
+<p style='text-align: left;'> 1. What docker and docker containers are replacing in terms of Virtualization? </p>
 <p style='text-align: left;'> 2. What's docker doing? </p>
 <p style='text-align: left;'> 3. What are containers? </p>
 <p style='text-align: left;'> 4. Linode Tutorial? </p>
