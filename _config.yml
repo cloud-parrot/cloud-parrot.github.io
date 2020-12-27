@@ -135,7 +135,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/grad.jpg"
     date: "April 2014"
-    description: "<small>Graduated! Ready to set the world on :fire:</small>"
+    description: "<small>Graduated in B.E. Computer Science Enginerring </small>"
   
   - image: "/img/timeline/cog.png"
     date: "September 2014"
