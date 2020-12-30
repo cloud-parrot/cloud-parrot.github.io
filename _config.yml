@@ -141,19 +141,18 @@ events:
     date: "September 2014"
     description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :heart_eyes:</small>"
   - image: "/img/timeline/cog_work.png"
-    date: "Databased Research Intern"
-    #description: "<small>Responsibilities were to research and implementation of OLTP and OLAP databases and implementing technical 
-     #  documentation for future references. </small>"
-  - image: "/img/timeline/bye1.jpg"
-    date: "December 2014"
-    description: "<small>Adios! </small>"
+    date: "Database Research Intern"
+    description: "<small> Started working as a Database Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc. </small>"
+  - #image: "/img/timeline/bye1.jpg"
+    #date: "December 2014"
+    #description: "<small>Adios! </small>"
   
   - image: "/img/timeline/gl.png"
     date: "Feb 2015"
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
     date: "Technical Specialist"
-    #description: "<small>Helping with technical consultation on specifications of Technologies. </small>"
+    description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</small>"
   
   - image: "/img/timeline/ghi.png"
     date: "Aug 2019 - Dec 2019"
@@ -242,6 +241,7 @@ pages_list:
   #Certifications: 'certifications'
   Projects: 'projects'
   Contact: 'contact'
+  Tags: 'tag'
   
 
 # Exclusion list from the generated _site
