@@ -241,7 +241,7 @@ pages_list:
   #Certifications: 'certifications'
   Projects: 'projects'
   Contact: 'contact'
-  Tags: 'tag'
+  Tags: 'tags'
   
 
 # Exclusion list from the generated _site
