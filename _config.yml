@@ -167,7 +167,7 @@ events:
     description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
   - image: "/img/timeline/agzeit1.png"
     date: "Internship"
-    description: "<small>Setting up AWS virtual platform services to build an eCommerce Website.  </small>" 
+    #description: "<small>Setting up AWS virtual platform services to build an eCommerce Website.  </small>" 
   
   - image: "/img/timeline/bing.png"
     date: "Fall 2019 - Expected May 2021"
