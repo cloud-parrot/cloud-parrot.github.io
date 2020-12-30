@@ -139,11 +139,11 @@ events:
   
   - image: "/img/timeline/cog.png"
     date: "September 2014"
-    description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :heart_eyes:</small>"
+    description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :tada:</small>"
   - image: "/img/timeline/cog_work.png"
     date: "Database Research Intern"
-    description: "<small> Started working as a Database Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc. </small>"
-  - #image: "/img/timeline/bye1.jpg"
+    description: "<small> Started working as a Database Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
+  #- image: "/img/timeline/bye1.jpg"
     #date: "December 2014"
     #description: "<small>Adios! </small>"
   
@@ -152,7 +152,7 @@ events:
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
     date: "Technical Specialist"
-    description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</small>"
+    description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small>"
   
   - image: "/img/timeline/ghi.png"
     date: "Aug 2019 - Dec 2019"
@@ -166,11 +166,11 @@ events:
     description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
   - image: "/img/timeline/agzeit1.png"
     date: "Summer Project/Internship"
-    description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</small>" 
+    description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:" 
   
   - image: "/img/timeline/bing.png"
     date: "Fall 2019 - Expected May 2021"
-    description: "<small>MS CS</small>"
+    description: "<small>MS CS :tada:</small>"
 
 # First image of the Timeline
 
