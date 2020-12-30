@@ -160,14 +160,15 @@ events:
     description: "<small>Started as SD Tead Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
   - image: "/img/timeline/ghi2.png"
     date: "Internship"
-    description: "<small>Work on improving the performance of GHI website by using proper code structure and updating the code base to newer python version. </small>"
+    description: "<small>Worked on improving the performance of GHI website by using proper code structure and updating the code base to newer python version. </small>"
     
   - image: "/img/timeline/agzeit.png"
     date: "May 2020 - July 2020 - Volunteer Work"
     description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
   - image: "/img/timeline/agzeit1.png"
-    date: "Internship"
-    #description: "<small>Setting up AWS virtual platform services to build an eCommerce Website.  </small>" 
+    date: "
+           Summer Project/Internship"
+    #description: "<small>Setting up AWS virtual platform services to build an eCommerce Website.</small>" 
   
   - image: "/img/timeline/bing.png"
     date: "Fall 2019 - Expected May 2021"
