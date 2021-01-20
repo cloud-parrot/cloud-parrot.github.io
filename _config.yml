@@ -237,7 +237,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  #Timeline: 'timeline'
   Certifications: 'certifications'
   Projects: 'projects'
   Contact: 'contact'
