@@ -238,7 +238,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   #Timeline: 'timeline'
-  Certifications: 'certifications'
+  Certifications: ''
   Projects: 'projects'
   Contact: 'contact'
   Tags: 'tags'
