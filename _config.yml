@@ -159,7 +159,7 @@ events:
     description: "<small>Started as SD Team Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
   - image: "/img/timeline/ghi2.png"
     date: "Internship"
-    description: "<small>Worked on improving the performance of GHI website by using proper code structure and updating the code base to newer python version. </small>"
+    description: "<small>Started Internsip work at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a> </small>"
     
   - image: "/img/timeline/agzeit.png"
     date: "May 2020 - July 2020"
