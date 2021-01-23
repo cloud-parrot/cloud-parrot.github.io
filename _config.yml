@@ -138,38 +138,38 @@ events:
     description: "<small>Graduated in B.E. Computer Science Enginerring </small>"
   
   - image: "/img/timeline/cog.png"
-    date: "September 2014"
+    date: "Sep 2014 - Dec 2014"
     description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :tada:</small>"
   - image: "/img/timeline/cog_work.png"
-    date: "Database Research Intern"
+    date: "Database Intern"
     description: "<small> Started working as a Database Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
   #- image: "/img/timeline/bye1.jpg"
     #date: "December 2014"
     #description: "<small>Adios! </small>"
   
   - image: "/img/timeline/gl.png"
-    date: "Feb 2015"
+    date: "Feb 2015 - Mar 2019"
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
-    date: "Technical Specialist"
+    date: "Software Engineer Professional"
     description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small>"
   
   - image: "/img/timeline/ghi.png"
     date: "Aug 2019 - Dec 2019"
-    description: "<small>Started as SD Tead Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
+    description: "<small>Started as SD Team Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
   - image: "/img/timeline/ghi2.png"
     date: "Internship"
     description: "<small>Worked on improving the performance of GHI website by using proper code structure and updating the code base to newer python version. </small>"
     
   - image: "/img/timeline/agzeit.png"
-    date: "May 2020 - July 2020 - Volunteer Work"
+    date: "May 2020 - July 2020"
     description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
   - image: "/img/timeline/agzeit1.png"
     date: "Summer Project/Internship"
     description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:" 
   
   - image: "/img/timeline/bing.png"
-    date: "Fall 2019 - Expected May 2021"
+    date: "Fall 2019"
     description: "<small>MS CS :tada:</small>"
 
 # First image of the Timeline
@@ -237,7 +237,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  #Timeline: 'timeline'
+  Timeline: 'timeline'
   Certifications: ''
   Projects: 'projects'
   Contact: 'contact'
