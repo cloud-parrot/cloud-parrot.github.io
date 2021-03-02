@@ -57,7 +57,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "<i>Dedicated to Embrace Linux</i>"
-  - text: "<i>Strong affinity for OpenSource Softwares</i>"
+  - text: "<i>Strong affinity towards Oracle Technologies</i>"
  # - text: "<i>Foodie by heart and Loves to travel</i>"
 
 me-img: "/img/author.png"
@@ -151,7 +151,7 @@ events:
     date: "Feb 2015 - Mar 2019"
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
-    date: "Software Engineer Professional"
+    date: "Senior Software Engineer - Database Developer and DBA"
     description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small>"
   
   - image: "/img/timeline/ghi.png"
@@ -163,7 +163,7 @@ events:
     
   - image: "/img/timeline/agzeit.png"
     date: "May 2020 - July 2020"
-    description: "<small>Started as Cloud Engineer Intern at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
+    description: "<small>Started as Software Enngineer Intern - Cloud Opearations at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
   - image: "/img/timeline/agzeit1.png"
     date: "Summer Project/Internship"
     description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:" 
