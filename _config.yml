@@ -142,7 +142,7 @@ events:
     description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :tada:</small>"
   - image: "/img/timeline/cog_work.png"
     date: "Database Intern"
-    description: "<small> Started working as a Database Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
+    description: "<small> Started working as a Database Developer Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
   #- image: "/img/timeline/bye1.jpg"
     #date: "December 2014"
     #description: "<small>Adios! </small>"
@@ -151,7 +151,7 @@ events:
     date: "Feb 2015 - Mar 2019"
     description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
   - image: "/img/timeline/devops.png"
-    date: "Senior Software Engineer - Database Developer and DBA"
+    date: "Senior Software Engineer - Database Developer"
     description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small>"
   
   - image: "/img/timeline/ghi.png"
