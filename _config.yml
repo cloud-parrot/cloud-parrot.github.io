@@ -170,7 +170,7 @@ events:
   
   - image: "/img/timeline/bing.png"
     date: "Fall 2019"
-    description: "<small>MS CS :tada:</small>"
+    description: "<small>Computer Science :tada:</small>"
 
 # First image of the Timeline
 
