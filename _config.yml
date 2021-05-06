@@ -169,7 +169,7 @@ events:
     description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:" 
   
   - image: "/img/timeline/bing.png"
-    date: "Fall 2019"
+    date: "2019-2021"
     description: "<small>Computer Science :tada:</small>"
 
 # First image of the Timeline
