@@ -134,8 +134,12 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/grad.jpg"
-    date: "April 2014"
-    description: "<small>Graduated in B.E. Computer Science Enginerring </small>"
+    date: "2010"
+    description: "<small>Associate Computer Science </small>"
+    
+  - image: "/img/timeline/grad.jpg"
+    date: "2014"
+    description: "<small>Bachelor's Computer Science </small>"
   
   - image: "/img/timeline/cog.png"
     date: "Sep 2014 - Dec 2014"
