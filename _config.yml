@@ -135,8 +135,8 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
-    description: "<small>Associate Computer Science </small>"
-    description: "<small>Oraneg City 🍊</small>"
+    description: "<small>Associate Computer Science </small> Oraneg City 🍊"
+    -description: "<small>Oraneg City 🍊</small>"
   - image: "/img/timeline/grad.jpg"
     date: "2014"
     description: "<small>Bachelor's Computer Science </small>"
