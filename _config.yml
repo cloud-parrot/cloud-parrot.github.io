@@ -136,10 +136,11 @@ events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
     description: "<small>Associate Computer Science </small>"
-    
+    description: "<small>Oraneg City 🍊</small>"
   - image: "/img/timeline/grad.jpg"
     date: "2014"
     description: "<small>Bachelor's Computer Science </small>"
+    description: "<small>Orange City 🍊</small>"
   
   - image: "/img/timeline/cog.png"
     date: "Sep 2014 - Dec 2014"
@@ -175,6 +176,7 @@ events:
   - image: "/img/timeline/bing.png"
     date: "2019-2021"
     description: "<small>MS CS :tada:</small>"
+    description: "<small>Carousel Capital 🎠</small>"
 
 # First image of the Timeline
 
