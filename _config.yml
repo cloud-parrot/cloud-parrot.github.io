@@ -175,7 +175,7 @@ events:
   - image: "/img/timeline/bing.png"
     date: "2019-2021"
     description: "<small>MS CS :tada:</small>"
-    city: '📍 Carousel Capital 🎠'
+    city: "📍 Carousel Capital 🎠"
     
 # First image of the Timeline
 
