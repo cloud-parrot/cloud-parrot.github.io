@@ -135,7 +135,9 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
-    description: "<small>Associate Computer Science </small>" |"<small> 📍 Oraneg City 🍊</small>"
+    description: >-
+    "<small>Associate Computer Science </small>"
+    "<small> 📍 Oraneg City 🍊</small>"
     
   - image: "/img/timeline/grad.jpg"
     date: "2014"
