@@ -135,12 +135,11 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
-    description: "<small>Associate Computer Science </small> Oraneg City 🍊"
-    -description: "<small>Oraneg City 🍊</small>"
+    description: "<small>Associate Computer Science </small> 📍 Oraneg City 🍊"
+    
   - image: "/img/timeline/grad.jpg"
     date: "2014"
-    description: "<small>Bachelor's Computer Science </small>"
-    description: "<small>Orange City 🍊</small>"
+    description: "<small>Bachelor's Computer Science </small> 📍 Oraneg City 🍊"
   
   - image: "/img/timeline/cog.png"
     date: "Sep 2014 - Dec 2014"
@@ -175,9 +174,8 @@ events:
   
   - image: "/img/timeline/bing.png"
     date: "2019-2021"
-    description: "<small>MS CS :tada:</small>"
-    description: "<small>Carousel Capital 🎠</small>"
-
+    description: "<small>MS CS :tada:</small> 📍 Carousel Capital 🎠"
+    
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
