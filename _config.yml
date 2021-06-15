@@ -136,8 +136,8 @@ events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
     description: >-
-    "<small>Associate Computer Science </small>" 
-    "<small>📍 Orange City 🍊</small>"
+    "<small> Associate Computer Science </small>" 
+    "📍 Orange City 🍊"
     
   - image: "/img/timeline/grad.jpg"
     date: "2014"
