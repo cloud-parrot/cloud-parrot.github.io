@@ -136,18 +136,18 @@ events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
     description: >-
-    "<small> Associate Computer Science </small>" 
-    "📍 Orange City 🍊"
+      Associate's Computer Science 
+      📍 Orange City 🍊
     
   - image: "/img/timeline/grad.jpg"
     date: "2014"
     description: >- 
-    "<small>Bachelor's Computer Science </small>" 
-    "<small>📍 Orange City 🍊</small>"
+      Bachelor's Computer Science 
+      📍 Orange City 🍊
   
   - image: "/img/timeline/cog.png"
     date: "Sep 2014 - Dec 2014"
-    description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> :tada:</small>"
+    description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> 🎉</small>"
   - image: "/img/timeline/cog_work.png"
     date: "Database Intern"
     description: "<small> Started working as a Database Developer Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
@@ -157,30 +157,30 @@ events:
   
   - image: "/img/timeline/gl.png"
     date: "Feb 2015 - Mar 2019"
-    description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> :tada:"
+    description: "<small>Started as Jr Software Engineer at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small> 🎉"
   - image: "/img/timeline/devops.png"
     date: "Senior Software Engineer - Database Developer"
     description: "<small>Started Working at <a href='https://fledge.xyz/' target='_blank'>Fledge Consulting Pvt Ltd</a></small>"
   
   - image: "/img/timeline/ghi.png"
     date: "Aug 2019 - Dec 2019"
-    description: "<small>Started as SD Team Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> :tada:"
+    description: "<small>Started as SD Team Lead Intern at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a></small> 🎉"
   - image: "/img/timeline/ghi2.png"
     date: "Internship"
     description: "<small>Started Internsip work at <a href='https://globalhealth.pythonanywhere.com/' target='_blank'>Global Health Impact</a> </small>"
     
   - image: "/img/timeline/agzeit.png"
     date: "May 2020 - July 2020"
-    description: "<small>Started as Software Enngineer Intern - Cloud Opearations at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:"
+    description: "<small>Started as Software Enngineer Intern - Cloud Opearations at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> 🎉"
   - image: "/img/timeline/agzeit1.png"
     date: "Summer Project/Internship"
-    description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> :tada:" 
+    description: "<small> Started working at <a href='https://www.agzeit.com/' target='_blank'>Agzeit, LLC.</a></small> 🎉" 
   
   - image: "/img/timeline/bing.png"
     date: "2019-2021"
     description: >-
-    "<small>MS CS :tada:</small>" 
-    "<small>📍Carousel Capital City🎠</small>"
+      MS CS 🎉 
+      📍Carousel Capital City🎠
     
 # First image of the Timeline
 
