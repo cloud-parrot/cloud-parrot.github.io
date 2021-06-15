@@ -135,7 +135,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/grad.jpg"
     date: "2010"
-    description: >-
+    description: |
       Associate's Computer Science 
       📍 Orange City 🍊
     
