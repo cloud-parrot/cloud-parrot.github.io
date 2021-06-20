@@ -44,7 +44,7 @@ Hive Hybrid Procedural SQL On Hadoop (HPL/SQL) is a tool that implements procedu
 
 Let's begin
 
-### 1. Make dure you have JDK installed in your machine
+### 1. Make sure you have JDK installed in your machine
 
 **Step 1.** Type "java -version" in terminal to find if the java is installed or not. If not then download java from [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
 The installer *jdk-16.0.1_osx-x64_bin.dmg* will be downloaded to your system.
