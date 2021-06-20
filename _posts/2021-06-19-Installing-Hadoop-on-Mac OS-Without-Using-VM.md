@@ -12,7 +12,7 @@ The Apache™ Hadoop® project develops open-source software for reliable, scala
 
 The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
-Credits >> [Read more..](https://hadoop.apache.org/)
+[Read more..](https://hadoop.apache.org/)
 
 ### What is Hive?
 
@@ -39,7 +39,8 @@ Let's begin
 
 ### 1. Make dure you have JDK installed in your machine
 
-**Step 1.** Type "java -version" in terminal to find if the java is installed or not. If not then download java from [here](https://www.oracle.com/java/technologies/javase-downloads.html)  The installer *jdk-16.0.1_osx-x64_bin.dmg* will be downloaded to your system.
+**Step 1.** Type "java -version" in terminal to find if the java is installed or not. If not then download java from [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+The installer *jdk-16.0.1_osx-x64_bin.dmg* will be downloaded to your system.
 
 ```console
 myhadoop@charons-MBP ~ % java -version
@@ -48,7 +49,7 @@ Java(TM) SE Runtime Environment (build 16.0.1+9-24)
 Java HotSpot(TM) 64-Bit Server VM (build 16.0.1+9-24, mixed mode, sharing)
 ```
 
-**Step 2.** The installer automatically setup the path
+**Step 2.** The installer will automatically setup the default path for your jdk environment
 
 ```console
 myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
@@ -59,16 +60,44 @@ Now, you can check the installation by typing "java -version" in the terminal.
 ### 2. Setup new user account for Hadoop
 
 **Step 1.** While already logged in into Admin account, Go to *System Preferences* and open *Users & Groups* and click on *+* to add a New User
-pic 1
-pic 2
+
+![PS!](/img/h1.png)
+
+![PS!](/img/linode22_dh.png)
 
 **Step 2.** After that you need to give access to *Remote LogIn* 
-pic 3
+
+![PS!](/img/linode22_dh.png)
 
 Now go to the terminal and fire following commands.
 
 ### Terminal commands to setup Hadoop Environment
 
+Beofore establising localhost connection you need to geneate a key
+```console
+myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
+```
+
+```console
+myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
+/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+```
+
+
+java -version
+ssh localhost
+ssh-keygen -t rsa -P “”
+cd .ssh
+ls -lrt
+cat /Users/hadoop/.ssh/id_rsa.pub >> /Users/hadoop/.ssh/authorized_keys
+cd
+ssh localhost
+exit
+Download .tar.gz file http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.1/
+hadoop$tar -xzvf hadoop-*
+cd hadoop-3.2.1
+cd etc/hadoop
+ls
 
 
 
