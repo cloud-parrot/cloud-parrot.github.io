@@ -119,7 +119,7 @@ myhadoop@charons-MBP ~ % exit
 Connection to localhost closed.
 ```
 
-# Now you can download the Hadoop from [here](http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.2/)
+Now you can download the Hadoop from [here](http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.2/)
 
 The file *hadoop-3.2.2.tar.gz* will be downloaded to your system.
 
@@ -144,13 +144,13 @@ myhadoop@charons-MBP ~ % ls
 myhadoop@charons-MBP ~ % open hadoop-env.sh
 ```
 
-# In *hadoop-env.sh* file add,
+**In *hadoop-env.sh* file add,
 
 ```console
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 ```
 
-# In *core-site.xml* add following between configuration tabs,
+**In *core-site.xml* add following between configuration tabs,
 
 ```console
 <configuration>  
@@ -161,7 +161,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 </configuration>  
 ```
 
-# In *hdfs-site.xml* add the following between configuration tabs,
+**In *hdfs-site.xml* add the following between configuration tabs,
 
 ```console
 <configuration>  
@@ -172,7 +172,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 </configuration>
 ```
 
-# In *mapred-site.xml* add the following between configuration tabs,
+**In *mapred-site.xml* add the following between configuration tabs,
 
 ```console
 <configuration>
@@ -187,7 +187,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 </configuration>
 ```
 
-# In *yarn-site.xml* add the following between configuration tabs,
+**In *yarn-site.xml* add the following between configuration tabs,
 
 ```console
 <configuration>
