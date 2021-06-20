@@ -29,12 +29,14 @@ The Apache Hive ™ data warehouse software facilitates reading, writing, and ma
 
 ### What is HPL/SQL?
 
-Hive Hybrid Procedural SQL On Hadoop (HPL/SQL) is a tool that implements procedural SQL for Hive. HPL/SQL is an open source tool (Apache License 2.0) that implements procedural SQL language for Apache Hive, SparkSQL, Impala as well as any other SQL-on-Hadoop implementation, any NoSQL and any RDBMS. HPL/SQL language is compatible to a large extent with Oracle PL/SQL, ANSI/ISO SQL/PSM (IBM DB2, MySQL, Teradata), PostgreSQL PL/pgSQL (PostgreSQL, Netezza) and Transact-SQL (Microsoft SQL Server and Sybase) that facilitates migration of existing business logic to Hadoop.
+Hive Hybrid Procedural SQL On Hadoop (HPL/SQL) is a tool that implements procedural SQL for Hive. HPL/SQL is an open source tool (Apache License 2.0) that implements procedural SQL language for Apache Hive, SparkSQL, Impala as well as any other SQL-on-Hadoop implementation, any NoSQL and any RDBMS. 
+
+HPL/SQL language is compatible to a large extent with Oracle PL/SQL, ANSI/ISO SQL/PSM (IBM DB2, MySQL, Teradata), PostgreSQL PL/pgSQL (PostgreSQL, Netezza) and Transact-SQL (Microsoft SQL Server and Sybase) that facilitates migration of existing business logic to Hadoop.
 
 [Read more..](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=59690156)
 
 
-**This blog will help you how to install Hadoop framework on MAC-OS without using any VM**
+**This blog will help you understand how to install Hadoop framework on MAC-OS without using any VM**
 
 <p style='text-align: left;'> 1. Installing JDK </p>
 <p style='text-align: left;'> 2. Setting up a new user account for Hadoop </p>
