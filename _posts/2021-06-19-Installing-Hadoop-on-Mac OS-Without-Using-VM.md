@@ -74,14 +74,122 @@ Now go to the terminal and fire following commands.
 ### Terminal commands to setup Hadoop Environment
 
 Beofore establising localhost connection you need to geneate a key
+
 ```console
 myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
 ```
+![PS!](/img/linode22_dh.png)
+
+After the key generation you will be getting two files,
+*id_rsa
+*id_rsa.pub
+To verify, use the following command.
 
 ```console
-myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
-/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+myhadoop@charons-MBP ~ % cd .ssh
+myhadoop@charons-MBP .ssh % ls -lrt 
 ```
+Now you need to move this two files into your Authorized Key folder
+
+```console
+myhadoop@charons-MBP .ssh % cat /Users/myhadoop/.ssh/id_rsa.pub >> /Users/myhadoop/.ssh/authprized_keys 
+```
+Now try to establish localhost connection typing the following command.
+
+```console
+myhadoop@charons-MBP ~ % ssh localhost 
+Last login: Sat June 19 14:47:45 2021
+myhadoop@charons-MBP ~ % exit
+Connection to localhost closed.
+```
+
+# Now you can download the Hadoop from [here](http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.2/)
+The file *hadoop-3.2.2.tar.gz* will be downloaded to your system.
+
+If you prefert to use terminal to unzip the file use the following command
+
+```console
+myhadoop@charons-MBP ~ % hadoop$tar -xzvf hadoop-*
+```
+
+After downloading the Hadoop you need to configure it,
+
+```console
+myhadoop@charons-MBP ~ % cd hadoop-3.2.2
+myhadoop@charons-MBP hadoop-3.2.2 % ls
+```
+Now change the Hadoop configuration files,
+
+```console
+myhadoop@charons-MBP ~ % cd etc/hadoop/
+myhadoop@charons-MBP ~ % ls
+myhadoop@charons-MBP ~ % open hadoop-env.sh
+```
+
+In hadoop-env.sh file add,
+```console
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+```
+
+In core-site.xml add following between configuration tabs,
+```console
+<configuration>  
+    <property>  
+        <name>fs.defaultFS</name>  
+        <value>hdfs://localhost:9000</value>  
+    </property>  
+</configuration>  
+```
+
+In hdfs-site.xml add the following between configuration tabs,
+```console
+<configuration>  
+    <property>  
+        <name>dfs.replication</name>  
+        <value>1</value>  
+    </property>  
+</configuration>
+```
+
+In mapred-site.xml add the following between configuration tabs,
+```console
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <property>
+        <name>mapreduce.application.classpath</name>
+        <value>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*</value>
+    </property>
+</configuration>
+```
+
+In yarn-site.xml add the following between configuration tabs,
+```console
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.env-whitelist</name>
+        <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PREPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
+    </property>
+</configuration>
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 java -version
