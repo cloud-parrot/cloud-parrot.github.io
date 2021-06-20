@@ -14,6 +14,13 @@ The Apache Hadoop software library is a framework that allows for the distribute
 
 [Read more..](https://hadoop.apache.org/)
 
+### What is HDFS?
+
+Hadoop comes with a distributed file system called HDFS. In HDFS data is distributed over several machines and replicated to ensure their durability to failure and high availability to parallel application. It is cost effective as it uses commodity hardware. It involves the concept of blocks, data nodes and node name.
+
+[Read more..](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+
+
 ### What is Hive?
 
 The Apache Hive ™ data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. A command line tool and JDBC driver are provided to connect users to Hive.
