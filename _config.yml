@@ -183,7 +183,7 @@ events:
     description: |
       MS CS 🎉,
       
-      📍Carousel Capital City🎠
+      📍Carousel City🎠
     
 # First image of the Timeline
 
@@ -203,7 +203,7 @@ timeline-img: "/img/timeline/default.png"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Harshal Rasal is an awesome person. Currently He lives in Binghamton, NY, US and pursuing his Masters. He usually spends his weekend in learning new stuffs, Reading, Cycling/running and Listening Music."
+author_blurb: "Harshal Rasal is an awesome person. Currently He lives in NY, US and he is a new grad. He usually spends his weekend in learning new stuff, reading, cycling/running and listening music."
 author_blurb_image: "/img/author.png"
 
 ##################
