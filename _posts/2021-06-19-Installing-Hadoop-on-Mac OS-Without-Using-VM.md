@@ -62,11 +62,12 @@ Java HotSpot(TM) 64-Bit Server VM (build 16.0.1+9-24, mixed mode, sharing)
 myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
 /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 ```
-Now, you can check the installation by typing "java -version" in the terminal.
+Now, check the installation using *java -version* command in terminal.
+
 
 ### 2. Setup a new user account for Hadoop
 
-**Step 1.** While already logged in into Admin account, Go to the *System Preferences* and open *Users & Groups* and click on *+* to add a New User
+**Step 1.** While already logged in as a Admin user, Go to the *System Preferences* and open *Users & Groups* and click on *+* to add a New User
 
 ![PS!](/img/h1.png)
 
@@ -74,37 +75,38 @@ Now, you can check the installation by typing "java -version" in the terminal.
 
 ![PS!](/img/h3.png)
 
-**Step 2.** After that from *System Preferences* open *sharing* and allow access to *Remote LogIn* for the Hadoop user 
+**Step 2.** After that, from *System Preferences* open *sharing* and allow access to *Remote LogIn* for the new user account
 
 ![PS!](/img/h4.png)
 
 ![PS!](/img/h5.png)
 
-Now go to the terminal and fire following commands.
 
 ### 3. Terminal commands to setup Hadoop Environment
 
-Beofore establising localhost connection you need to geneate a key
+Before establishing the localhost connection you need to geneate a key by using following commands,
 
 ```console
 myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
 ```
 ![PS!](/img/h6.png)
 
-After the key generation you will be getting two files,
-*id_rsa
-*id_rsa.pub
+After the key generation you will get two files,
+*id_rsa*
+*id_rsa.pub*
 To verify, use the following command.
 
 ```console
 myhadoop@charons-MBP ~ % cd .ssh
 myhadoop@charons-MBP .ssh % ls -lrt 
 ```
-Now you need to move this two files into your Authorized Key folder
+
+Now move this files into your Authorized Key folder
 
 ```console
 myhadoop@charons-MBP .ssh % cat /Users/myhadoop/.ssh/id_rsa.pub >> /Users/myhadoop/.ssh/authprized_keys 
 ```
+
 Now try to establish localhost connection typing the following command.
 
 ```console
@@ -194,15 +196,20 @@ Now you need to format the *namenode*
 ```console
 myhadoop@charons-MBP hadoop-3.2.2 % bin/hdfs namenode -format
 ```
+
 After formating is done go to *sbin* directory
+
 ```console
 myhadoop@charons-MBP hadoop-3.2.2 % cd sbin
 myhadoop@charons-MBP sbin % .start-all.sh
 ```
+
 Now verify the running nodes using *jps* command
+
 ```console
 myhadoop@charons-MBP sbin % jps
 ```
+
 Also verify it on browser using *localhost:9870*
 And once you get the following page you have done all steps correctly
 
