@@ -46,7 +46,7 @@ Let's begin
 
 ### 1. Make sure you have JDK installed in your machine
 
-**Step 1.** Type "java -version" in terminal to find if the java is installed or not. If not then download java from [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+**Step 1.** Type *java -version* in terminal to find if the java is installed or not. If not then download java from [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
 The installer *jdk-16.0.1_osx-x64_bin.dmg* will be downloaded to your system.
 
 ```console
@@ -62,6 +62,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 16.0.1+9-24, mixed mode, sharing)
 myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
 /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 ```
+
 Now, check the installation using *java -version* command in terminal.
 
 
@@ -71,13 +72,17 @@ Now, check the installation using *java -version* command in terminal.
 
 ![PS!](/img/h1.png)
 
+
 ![PS!](/img/h2.png)
 
+
 ![PS!](/img/h3.png)
+
 
 **Step 2.** After that, from *System Preferences* open *sharing* and allow access to *Remote LogIn* for the new user account
 
 ![PS!](/img/h4.png)
+
 
 ![PS!](/img/h5.png)
 
@@ -89,12 +94,10 @@ Before establishing the localhost connection you need to geneate a key by using 
 ```console
 myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
 ```
+
 ![PS!](/img/h6.png)
 
-After the key generation you will get two files,
-*id_rsa*
-*id_rsa.pub*
-To verify, use the following command.
+After the key generation you will get two files, *id_rsa* and *id_rsa.pub*. To verify, use the following command.
 
 ```console
 myhadoop@charons-MBP ~ % cd .ssh
@@ -107,7 +110,7 @@ Now move this files into your Authorized Key folder
 myhadoop@charons-MBP .ssh % cat /Users/myhadoop/.ssh/id_rsa.pub >> /Users/myhadoop/.ssh/authprized_keys 
 ```
 
-Now try to establish localhost connection typing the following command.
+Now try to establish localhost connection using the following commands.
 
 ```console
 myhadoop@charons-MBP ~ % ssh localhost 
@@ -117,9 +120,10 @@ Connection to localhost closed.
 ```
 
 # Now you can download the Hadoop from [here](http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.2/)
+
 The file *hadoop-3.2.2.tar.gz* will be downloaded to your system.
 
-If you prefert to use terminal to unzip the file use the following command
+If you prefer to use terminal to unzip the file then use the following terminal commands,
 
 ```console
 myhadoop@charons-MBP ~ % hadoop$tar -xzvf hadoop-*
@@ -131,6 +135,7 @@ After downloading the Hadoop you need to configure it,
 myhadoop@charons-MBP ~ % cd hadoop-3.2.2
 myhadoop@charons-MBP hadoop-3.2.2 % ls
 ```
+
 Now change the Hadoop configuration files,
 
 ```console
@@ -139,12 +144,14 @@ myhadoop@charons-MBP ~ % ls
 myhadoop@charons-MBP ~ % open hadoop-env.sh
 ```
 
-In *hadoop-env.sh* file add,
+# In *hadoop-env.sh* file add,
+
 ```console
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 ```
 
-In *core-site.xml* add following between configuration tabs,
+# In *core-site.xml* add following between configuration tabs,
+
 ```console
 <configuration>  
     <property>  
@@ -154,7 +161,8 @@ In *core-site.xml* add following between configuration tabs,
 </configuration>  
 ```
 
-In *hdfs-site.xml* add the following between configuration tabs,
+# In *hdfs-site.xml* add the following between configuration tabs,
+
 ```console
 <configuration>  
     <property>  
@@ -164,7 +172,8 @@ In *hdfs-site.xml* add the following between configuration tabs,
 </configuration>
 ```
 
-In *mapred-site.xml* add the following between configuration tabs,
+# In *mapred-site.xml* add the following between configuration tabs,
+
 ```console
 <configuration>
     <property>
@@ -178,7 +187,8 @@ In *mapred-site.xml* add the following between configuration tabs,
 </configuration>
 ```
 
-In *yarn-site.xml* add the following between configuration tabs,
+# In *yarn-site.xml* add the following between configuration tabs,
+
 ```console
 <configuration>
     <property>
@@ -192,12 +202,13 @@ In *yarn-site.xml* add the following between configuration tabs,
 </configuration>
 ```
 
-Now you need to format the *namenode*
+Now, you need to format the *namenode*
+
 ```console
 myhadoop@charons-MBP hadoop-3.2.2 % bin/hdfs namenode -format
 ```
 
-After formating is done go to *sbin* directory
+After formating is done go to *sbin* directory,
 
 ```console
 myhadoop@charons-MBP hadoop-3.2.2 % cd sbin
@@ -210,8 +221,7 @@ Now verify the running nodes using *jps* command
 myhadoop@charons-MBP sbin % jps
 ```
 
-Also verify it on browser using *localhost:9870*
-And once you get the following page you have done all steps correctly
+Also verify it on browser using *localhost:9870*. And once you get the following page you have done all steps correctly
 
 ![PS!](/img/h7.jpeg)
 
