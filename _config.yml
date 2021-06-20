@@ -152,7 +152,7 @@ events:
     description: "<small>Started working at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a> 🎉</small>"
   - image: "/img/timeline/cog_work.png"
     date: "Database Intern"
-    description: "<small> Started working as a Database Developer Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
+    description: "<small>Started working as a Database Developer Research Intern at <a href='https://toranainc.com/' target='_blank'> Torana, Inc.</a></small>"
   #- image: "/img/timeline/bye1.jpg"
     #date: "December 2014"
     #description: "<small>Adios! </small>"
