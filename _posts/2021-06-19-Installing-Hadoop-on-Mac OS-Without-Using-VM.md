@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Hadoop installation guide on MAC-OS
+title: Hadoop installation guide for MAC-OS
 category: tech
 tags: [ 'tutorial']
 ---
