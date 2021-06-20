@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Hadoop installation guide for MAC-OS
+title: Installing Hadoop On Mac-OS Without Using VM
 category: tech
 tags: [ 'tutorial']
 ---
