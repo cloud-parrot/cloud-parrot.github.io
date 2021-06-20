@@ -59,15 +59,19 @@ Now, you can check the installation by typing "java -version" in the terminal.
 
 ### 2. Setup a new user account for Hadoop
 
-**Step 1.** While already logged in into Admin account, Go to *System Preferences* and open *Users & Groups* and click on *+* to add a New User
+**Step 1.** While already logged in into Admin account, Go to the *System Preferences* and open *Users & Groups* and click on *+* to add a New User
 
 ![PS!](/img/h1.png)
 
 ![PS!](/img/h2.png)
 
-**Step 2.** After that you need to give access to *Remote LogIn* 
-
 ![PS!](/img/h3.png)
+
+**Step 2.** After that from *System Preferences* open *sharing* and allow access to *Remote LogIn* for the Hadoop user 
+
+![PS!](/img/h4.png)
+
+![PS!](/img/h5.png)
 
 Now go to the terminal and fire following commands.
 
@@ -78,7 +82,7 @@ Beofore establising localhost connection you need to geneate a key
 ```console
 myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
 ```
-![PS!](/img/h4.png)
+![PS!](/img/h6.png)
 
 After the key generation you will be getting two files,
 *id_rsa
@@ -195,18 +199,12 @@ myhadoop@charons-MBP sbin % jps
 Also verify it on browser using *localhost:9870*
 And once you get the following page you have done all steps correctly
 
-![PS!](/img/h5.png)
+![PS!](/img/h7.png)
 
-### How docker being used in IT?
+### How Hadoop being used in IT?
 
-**Important Links**
+To learn more about Hadoop you can visit the official [Apache Hadoop](https://hadoop.apache.org/) website.
 
-<pre><code data-trim class="yaml">
-#useful link for docker images
-https://hub.docker.com/
-
-#know more about docker on
-https://www.docker.com/
-</code></pre>
+All the best! 👍
 
 ---
