@@ -72,55 +72,6 @@ Now go to the terminal and fire following commands.
 
 
 
-I like to think them as a crazy fast lightweight microcomputers! In this context please don't let word 'micro' fool you because they are and they can be as powerful as you want them to be and similar to a VM they would have their own OS, their own CPU processes, their own memory, their own network and the most important thing is they are quaratined, they are isolated and they are secure.
-
-**Follow the screenshot tutorial of Linode and play with Docker and Docker Containers**
-
-*If you don't have an account on Linode then you gonna need one. (Its free account gives you $100 credit)*
-
-![PS!](/img/linode1.png)
-
-*Go to the Marketplace and scrll down to Docker*
-
-![PS!](/img/linode2.png)
-
-![PS!](/img/linode3.png)
-
-![PS!](/img/linode4.png)
-
-![PS!](/img/linode5.png)
-
-![PS!](/img/linode6.png)
-
-*Click on Launch SSH Console*
-
-![PS!](/img/linode7.png)
-
-![PS!](/img/linode8.png)
-
-![PS!](/img/linode9.png)
-
-![PS!](/img/linode10.png)
-
-![PS!](/img/linode11.png)
-
-![PS!](/img/linode12.png)
-
-![PS!](/img/linode13.png)
-
-![PS!](/img/linode14.png)
-
-![PS!](/img/linode15.png)
-
-![PS!](/img/linode16.png)
-
-![PS!](/img/linode17.png)
-
-![PS!](/img/linode19_dh.png)
-
-![PS!](/img/linode20_dh.png)
-
-![PS!](/img/linode21_dh.png)
 
 ![PS!](/img/linode22_dh.png)
 
@@ -129,11 +80,6 @@ I like to think them as a crazy fast lightweight microcomputers! In this context
 
 
 ### How docker being used in IT?
-
-We have already demonstrated that we can put docker container up in the cloud - Linode. You can move the same docker container to Azure, AWS they provide the similar environment as linode for the docker. Its just like a web application which you can deploy and launch your containers! This is amazing for developers because using docker container now they can write their code and deploy it in a docker container and make sure that it will works everywhere. Before this it was a problem with developers for a long time that they write code for an app on their computer and it works fine on thier end but as soon as when the same code goes to the QA team it don't work and developers had to get into discussion they don't want "Hey it worked on my machine, idk what's you are doing 😕". So basically docker coantainer helps avoid this becuase if you deploy your app in a docker container so everything that app needs is right there in that container, and its contained and isolated from other teams. 
-
-Comming to the microservices Its a concept which is taking IT industry by storm! As you more dive into the DevOps stuff this the concept you have to understand and work with. Microservices involved taking portions of your application or your stack and segment again into smaller bits and pieces, So traditionally you have one server where your entire application is installed with all required resources. For example, For Wordpress application, you might install your Wordpress Server and MySql database on the same server.This is what developers might have done traditionally by installing as many as compatible apps they could on one server. But now with the help of containers one particular application program, eg. Wordpress server may be installed in one container and have MySql portion installed in another container so that they both treated as a separate program and this isolated feature of containers reduces the chances for conflicting things and when a developer wants to update one portion of application then he/she only needs to update just one container without disrupting the whole cycle.
-
 
 **Important Links**
 
