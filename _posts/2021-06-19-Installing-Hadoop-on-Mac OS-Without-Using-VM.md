@@ -30,9 +30,9 @@ Hive Hybrid Procedural SQL On Hadoop (HPL/SQL) is a tool that implements procedu
 **This blog will help you how to install Hadoop framework on MAC-OS without using any VM**
 
 <p style='text-align: left;'> 1. Installing JDK </p>
-<p style='text-align: left;'> 2. Setting up user account for Hadoop </p>
-<p style='text-align: left;'> 3. Terminal commands to setup Hadoop Environment </p>
-<p style='text-align: left;'> 4. Downloading Hadoop  </p>
+<p style='text-align: left;'> 2. Setting up a new user account for Hadoop </p>
+<p style='text-align: left;'> 3. Terminal commands to configure Hadoop Environment </p>
+<p style='text-align: left;'> 4. Downloading Hadoop </p>
 <p style='text-align: left;'> 5. How Hadoop being used in IT? </p>
 
 Let's begin
@@ -57,28 +57,28 @@ myhadoop@charons-MBP ~ % echo $(/usr/libexec/java_home)
 ```
 Now, you can check the installation by typing "java -version" in the terminal.
 
-### 2. Setup new user account for Hadoop
+### 2. Setup a new user account for Hadoop
 
 **Step 1.** While already logged in into Admin account, Go to *System Preferences* and open *Users & Groups* and click on *+* to add a New User
 
 ![PS!](/img/h1.png)
 
-![PS!](/img/linode22_dh.png)
+![PS!](/img/h2.png)
 
 **Step 2.** After that you need to give access to *Remote LogIn* 
 
-![PS!](/img/linode22_dh.png)
+![PS!](/img/h3.png)
 
 Now go to the terminal and fire following commands.
 
-### Terminal commands to setup Hadoop Environment
+### 3. Terminal commands to setup Hadoop Environment
 
 Beofore establising localhost connection you need to geneate a key
 
 ```console
 myhadoop@charons-MBP ~ % ssh-keygen -t rsa -P ""
 ```
-![PS!](/img/linode22_dh.png)
+![PS!](/img/h4.png)
 
 After the key generation you will be getting two files,
 *id_rsa
@@ -126,12 +126,12 @@ myhadoop@charons-MBP ~ % ls
 myhadoop@charons-MBP ~ % open hadoop-env.sh
 ```
 
-In hadoop-env.sh file add,
+In *hadoop-env.sh* file add,
 ```console
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
 ```
 
-In core-site.xml add following between configuration tabs,
+In *core-site.xml* add following between configuration tabs,
 ```console
 <configuration>  
     <property>  
@@ -141,7 +141,7 @@ In core-site.xml add following between configuration tabs,
 </configuration>  
 ```
 
-In hdfs-site.xml add the following between configuration tabs,
+In *hdfs-site.xml* add the following between configuration tabs,
 ```console
 <configuration>  
     <property>  
@@ -151,7 +151,7 @@ In hdfs-site.xml add the following between configuration tabs,
 </configuration>
 ```
 
-In mapred-site.xml add the following between configuration tabs,
+In *mapred-site.xml* add the following between configuration tabs,
 ```console
 <configuration>
     <property>
@@ -165,7 +165,7 @@ In mapred-site.xml add the following between configuration tabs,
 </configuration>
 ```
 
-In yarn-site.xml add the following between configuration tabs,
+In *yarn-site.xml* add the following between configuration tabs,
 ```console
 <configuration>
     <property>
@@ -179,41 +179,23 @@ In yarn-site.xml add the following between configuration tabs,
 </configuration>
 ```
 
+Now you need to format the *namenode*
+```console
+myhadoop@charons-MBP hadoop-3.2.2 % bin/hdfs namenode -format
+```
+After formating is done go to *sbin* directory
+```console
+myhadoop@charons-MBP hadoop-3.2.2 % cd sbin
+myhadoop@charons-MBP sbin % .start-all.sh
+```
+Now verify the running nodes using *jps* command
+```console
+myhadoop@charons-MBP sbin % jps
+```
+Also verify it on browser using *localhost:9870*
+And once you get the following page you have done all steps correctly
 
-
-
-
-
-
-
-
-
-
-
-
-
-java -version
-ssh localhost
-ssh-keygen -t rsa -P “”
-cd .ssh
-ls -lrt
-cat /Users/hadoop/.ssh/id_rsa.pub >> /Users/hadoop/.ssh/authorized_keys
-cd
-ssh localhost
-exit
-Download .tar.gz file http://mirrors.estointernet.in/apache/hadoop/common/hadoop-3.2.1/
-hadoop$tar -xzvf hadoop-*
-cd hadoop-3.2.1
-cd etc/hadoop
-ls
-
-
-
-![PS!](/img/linode22_dh.png)
-
-![PS!](/img/linode23_docker_stats.png)
-
-
+![PS!](/img/h5.png)
 
 ### How docker being used in IT?
 
