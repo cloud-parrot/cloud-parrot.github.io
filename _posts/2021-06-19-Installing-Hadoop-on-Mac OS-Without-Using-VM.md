@@ -206,7 +206,7 @@ myhadoop@charons-MBP sbin % jps
 Also verify it on browser using *localhost:9870*
 And once you get the following page you have done all steps correctly
 
-![PS!](/img/h7.png)
+![PS!](/img/h7.jpeg)
 
 ### How Hadoop being used in IT?
 
