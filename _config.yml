@@ -252,7 +252,7 @@ pages_list:
   Blog: 'latest-post'
   Timeline: 'timeline'
   Certifications: 'certifications'
-  Appreciation-Letter: 'appreciation-letter'
+  #Appreciation-Letter: 'appreciation-letter'
   Projects: 'projects'
   Contact: 'contact'
   Tags: 'tags'
